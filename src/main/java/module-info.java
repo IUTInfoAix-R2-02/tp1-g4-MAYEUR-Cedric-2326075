@@ -5,5 +5,9 @@ open module tp.intro.javafx {
     requires javafx.fxml;
     exports com.example.partiel;
     exports fr.amu.iut.exercice1;
+    exports fr.amu.iut.exercice2;
+    exports fr.amu.iut.exercice3;
+    exports fr.amu.iut.exercice4;
+    exports fr.amu.iut.exercice5;
 
 }
