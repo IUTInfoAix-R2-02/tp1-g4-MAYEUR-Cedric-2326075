@@ -84,4 +84,3 @@ class Personnage extends Group {
     }
 
 }
-//note prof : afficher rectangle // ne pas oublier longeur, largeur, position
