@@ -31,6 +31,7 @@ class Personnage extends Group {
         if (!direction.equals("gauche")) {
             direction = "gauche";
         }
+
     }
 
     public void deplacerADroite(double largeurJeu) {
@@ -81,6 +82,11 @@ class Personnage extends Group {
     boolean estEnCollision(Personnage autrePersonnage) {
         return getBoundsInParent().contains(autrePersonnage.getBoundsInParent())
                 || autrePersonnage.getBoundsInParent().contains(getBoundsInParent());
+    }
+
+    boolean estEnCollision2(Obstacle obstacle) {
+        return getBoundsInParent().contains(obstacle.getBoundsInParent())
+                || obstacle.getBoundsInParent().contains(getBoundsInParent());
     }
 
 }
