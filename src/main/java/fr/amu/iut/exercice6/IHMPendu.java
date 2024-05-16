@@ -33,7 +33,12 @@ public class IHMPendu extends Application {
         Button btnRejouer = new Button("Rejouer");
         //clavier
         TextField claviertmp = new TextField();
-        GridPane clavier = new GridPane();
+        GridPane clavier = new GridPane
+
+
+
+
+();
         //lettre clavier
         Button a = new Button("a");
         Button b = new Button("b");
